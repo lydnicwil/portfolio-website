@@ -11,8 +11,8 @@ body {
 .header {
     padding: 25px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #ab3ddf;
-    color: #ffffff;
+    background-color: #c2a2d1;
+    color: #000000;
 }
 
 .header h1 {
@@ -38,8 +38,9 @@ body {
 }
 
 a {
-    color: #ffffff;
+    color: #000000;
     text-decoration: none;
+    font-size: 25px
 }
 
 p {
@@ -51,8 +52,22 @@ p {
     margin-left: 25px;
 }
 
+.content h2{
+    font-size: 30px;
+}
+
+.about-me img{
+    display: block;
+    margin: 20px auto;
+    max-width: 200px;
+    right: -50px;
+}
+
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+    background-color: #c2a2d1;
+    border: 20px solid #ffffff;
+    padding: 30px;
 }
