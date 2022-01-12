@@ -59,15 +59,59 @@ p {
 .about-me img{
     display: block;
     margin: 20px auto;
-    max-width: 200px;
-    right: -50px;
+    max-width: 400px;
+    border: 30px solid #c2a2d1;
+    position: relative;
+    right: -325px;
+    top: 0px;
 }
 
-.content {
+.about-me {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
     background-color: #c2a2d1;
     border: 20px solid #ffffff;
     padding: 30px;
+}
+
+.work {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+    background-color: #c2a2d1;
+    border: 20px solid #ffffff;
+    padding: 30px;
+}
+
+.work ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.work ul li {
+    display: inline-block;
+    margin-left: 60px;
+    text-align: center;
+    background-color: #ffffff;
+    border: 20px solid #ffffff;
+}
+
+.contact-me {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+    background-color: #c2a2d1;
+    border: 20px solid #ffffff;
+    padding: 30px;
+}
+
+.contact-me ul {
+    list-style-type: none;
+    float: right;
+}
+
+.contact-me ul li {
+    display: inline-block;
+    margin-left: 25px;
 }
