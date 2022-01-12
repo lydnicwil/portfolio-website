@@ -59,29 +59,32 @@ p {
 .about-me img{
     display: block;
     margin: 20px auto;
-    max-width: 400px;
+    max-width: 425px;
     border: 30px solid #c2a2d1;
     position: relative;
-    right: -325px;
+    /*right 525*/
     top: 0px;
 }
 
 .about-me {
-    width: 75%;
+    width: 80%;
     display: inline-block;
-    margin-left: 20px;
+    /*margin-left: 20px;*/
+    margin-left:10%;
     background-color: #c2a2d1;
     border: 20px solid #ffffff;
     padding: 30px;
+    text-align: center;
 }
 
 .work {
-    width: 75%;
+    width: 95%;
     display: inline-block;
     margin-left: 20px;
     background-color: #c2a2d1;
     border: 20px solid #ffffff;
     padding: 30px;
+    text-align: center;
 }
 
 .work ul {
@@ -98,17 +101,17 @@ p {
 }
 
 .contact-me {
-    width: 75%;
+    width: 100%;
     display: inline-block;
-    margin-left: 20px;
     background-color: #c2a2d1;
-    border: 20px solid #ffffff;
-    padding: 30px;
+    margin: 40px solid #c2a2d1;
+    padding: 40px;
+    text-align: center;
 }
 
 .contact-me ul {
     list-style-type: none;
-    float: right;
+    float: center;
 }
 
 .contact-me ul li {
