@@ -94,10 +94,10 @@ p {
 
 .work ul li {
     display: inline-block;
-    margin-left: 60px;
+    margin-left: 10px;
     text-align: center;
-    background-color: #ffffff;
-    border: 20px solid #ffffff;
+    background-color: #ead0f1;
+    border: 20px solid #ead0f1;
 }
 
 .contact-me {
